@@ -1,0 +1,63 @@
+.hero{
+max-width: 320px;
+background-image: url(/src/images/index-background-mobile\ 1.png);
+background-size: contain;
+background-repeat: no-repeat;
+padding-bottom: 30px;
+margin: auto;
+@media screen and (min-width: 768px) {
+    max-width: 768px;
+        background-image:url(/src/images/index-can-tablet\ 1.jpg);
+        background-size:contain;
+    }
+}
+.wrapper-hero{
+@media screen and (min-width: 768px) {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+}
+.img-hero{
+    padding: 25px 20px;
+    margin: 0 auto;
+    @media screen and (min-width: 768px) {
+        display: none;
+        }
+}
+.title{
+color: var(--text-color);
+font-size:36px ;
+text-align: center;
+padding-bottom: 25px;
+@media screen and (min-width: 768px) {
+    font-size: 60px;
+    color: var(--second-text-color);
+    padding-bottom: 40px;
+    text-align: left;
+    }
+}
+.text{
+font-size:14px;
+color:var(--text-color);
+text-align: center;
+padding-bottom: 30px;
+@media screen and (min-width: 768px) {
+    font-size: 24px;
+        color: var(--second-text-color);
+        text-align: left;
+        padding-bottom: 50px;
+    }
+}
+.button{
+display: block;
+padding: 10px 40px;
+background-color: var(--accent-color);
+color: var(--text-color);
+width: 280px;
+margin: auto;
+@media screen and (min-width: 768px) {
+       width: 380px;
+       margin: 0;
+    }
+}

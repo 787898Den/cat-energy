@@ -1,2 +1,13 @@
-@import './common';
-@import './example';
+@import './utils/variables';
+@import './utils/breakpoints';
+
+// BASE
+@import './base/common';
+@import './base/container';
+
+@import './layout/header';
+@import './layout/hero-header';
+@import './layout/products';
+@import './layout/advantages';
+@import './layout/about';
+@import './layout/footer';
